@@ -1,0 +1,18 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: myappointments
+  pool: 5
+  username: appointment
+  password: appointment
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: myappointments
+  pool: 5
+  username: appointment
+  password: appointment
+  timeout: 5000
